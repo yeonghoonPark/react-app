@@ -1,0 +1,9 @@
+HTML(React) + CSS(SASS, SCSS, LESS, 루비.....) + javaScript(Node.js, React, Viu.....) → Web Standard(프론트)
+
+Node.js : javaScript back End 동작환경
+React, Viu : Node.js의 라이브러리(기능확장) 개념
+ 정확히는 라이브러리는 아니지만 라이브러리개념, Node.js환경에서 동작하는
+ 프로그램.
+
+VsCode에서 live sass compiler v5.3.1
+

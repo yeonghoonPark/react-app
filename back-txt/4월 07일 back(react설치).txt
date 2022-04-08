@@ -1,0 +1,21 @@
+nodejs 검색
+→ 16.14.2 LTS 다운로드, 안된다면 최신버전.
+→ 기본값으로 설치
+→ cmd 또는 vscode의 터미널에서  'node -v'로 버전 확인가능
+→ vscode실행, 작업할 폴더 react-app 생성
+→ vscode의 터미널 실행, npx create-react-app darklight , cd darklight
+→ vscode의 폴더를 darklight로 변경
+→ vscode의 터미널 실행, npm start
+터미널에서 Ctrl + c 는 종료
+
+react 검색 후 스타트 법,
+
+컴포넌트 생성
+
+react를 사용 하는 이유는 컴포넌트를 생성해서 html문서에서 재활용하기 위함
+
+(node.js, react.js)의 환경설정하기
+react 프로젝트 생성하기
+바인딩, 랜더링, 컴포넌트, 프롭스의 개념
+
+

@@ -1,0 +1,4 @@
+웹 표준 (Front 한정)
+1. HTML (REACT.....) REACT또한 Node.js에 대한 패키지 중 하나다
+2. CSS (SASS, SCSS.....)
+3. javaScript (jQuery....., Node.js) 
