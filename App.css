@@ -1,9 +1,25 @@
-.wrap{
-  padding: 20px;
+.App{
+    padding: 20px;
 }
-header{
-  text-align: center;
+a{text-decoration: none;}
+h1.mainTit{
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
 }
-h1{
-  font-size: 64px;
+h1 a{
+    color: #8b0000;
+}
+ol li, ol li a{
+    font-size: 24px;
+    color: #00008b;
+}
+h2{
+    color: #f00;
+}
+nav{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 50px;
 }
