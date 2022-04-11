@@ -17,5 +17,6 @@ props => 외부로 전달되는 값, 누군가 받아서 처리할 값, 고유�
  월등히 빠르다, 이미 라이브러리로 만들어져있어 가져와서 사용만 하면 된다
  import {useState} from 'react'; 
 -> useState라는 라이브러리(함수)를 가져와서 쓴다.
-기본문법 => let [변수명, 변수변경명] = useState( );
+useState는 꼭 App 안에 두어야한다.
+기본문법 => let [변수명(개체), 변수변경명(함수)] = useState( );
  변수명의 타입은 object타입, 변수변경명의 타입은 function타입
