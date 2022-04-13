@@ -1,0 +1,7 @@
+npm도 많이 사용하지만 요즘은 yarn이라는 패키지매니저도 많이 사용한다
+
+npm install -g yarn
+
+yarn은 설치 후 재부팅 필수
+
+쌟땛

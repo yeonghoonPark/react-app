@@ -1,0 +1,15 @@
+react router dom 검색.
+
+router를 사용하면 BrowserRouter, Switch, Route, Link 기능 사용 가능.
+
+터미널
+npm install react-router-dom@5.2.0
+
+http://localhost:3000/ =>시작페이지 보여줘
+http://localhost:3000/Detail/ => 상세페이지 시작화면 보여줘
+http://localhost:3000/Detail/01 => 01제품의 상세페이지 시작화면 보여줘
+
+vscode에서 설정, emmet에서 javascript javascriptreact 설정.
+
+경로에 :(콜론) 이 붙은 것을 파라미터, 즉 전달한다, : 뒤에는 아무거나 올 수 있다
+
