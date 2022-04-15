@@ -107,9 +107,77 @@ npm install react-router-dom@5.2.0 또는 yarn add react-router-dom 으로 설�
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom"; 삽입
 
+------------------------------------------------------------------
+
+param = 패스의 경로 뒤에 :param < 이름은 내가 정하기 나름, 보통 param이라 부른다
+ 이름은 보통 id로들 많이 한다
+
+import { BrowserRouter as Router, Switch, Route, Link , useParams} from "react-router-dom";
+
+------------------------------------------------------------------
+
+useEffect => react에서 제공하는 라이브러리, useState도 react에서 제공
+
+useEffect (( )=>{
+    실행시킬 함수
+ })
+
+------------------------------------------------------------------
+
+json 이라는 확장자, javaScript에서 제공하는 문서 확장자
+ javaScript에서 자료를 주고 받는 확장자
+ 
+json 에서는 배열개체로 자료를 주고 받는다
+
+내가 올려놓은 깃허브의 서버
+https://yeonghoonpark.github.io/react-server/serverData.json
+
+구글에서 axios 검색
+터미널에서
+npm install axios
+
+서버가 보내온 정보는 data다, 
+axios를 사용하면 개체로 변환해서 보내준다 ""가 ''로 변환
+
+------------------------------------------------------------------
+
+build
+
+터미널에서
+npm run build
+
+package.json 파일에서 "homepage" : ".", 추가
+- "homepage" : ".", 이 방식은 도메인에 따라 다를 수 있다
+만약 나의 도메인이  
+https://yeonghoonpark.github.io/ 처럼 루트(최상위)라면
+"homepage" : "https://yeonghoonpark.github.io/" 이렇게 해준다
+나의 도메인이 서브라면 즉,
+https://yeonghoonpark.github.io/react-server/ 라면
+"homepage" : ".",
+
+build라는 파일이 생성되고 build만 깃허브 서버에 올린다.
+
+내가 깃허브에서 받은 서버에서 확인
+https://yeonghoonpark.github.io/react-server/ 
+
+------------------------------------------------------------------
 
 
 
+① 지시사항
+   - 블로그의 모든 페이지와 기능은 ‘아파치 톰켓’과 'JSP',그리고 ‘MySQL’을 
+      사용하여 제작하세요
+   
+   - 블로그 하단에는 n개의 블로그 목록이 나타나도록 구현하세요
+   
+   - 블로그 목록을 클릭하면 블로그 내용을 확인할 수 있도록 하세요
+   
+   - 하단의 ‘더보기’ 버튼과  ‘작성’ 버튼을 생성하고 ‘더보기’ 클릭시 다음 블로그 
+      내용이 n개씩 나타나도록 구현하세요
+   
+   - ‘작성’버튼을 클릭하면 ‘제목’,‘내용’,‘이미지 첨부’가 가능하도록 구현하세요
+
+※ 평가 결과물은  "네크워크프로그래밍구현–훈련생성명.pdf" 파일로 정리하고 “java, DB”등의 필요파일 또한 훈련생 본인의 깃허브(https://www.github.com) 상의 "report12" 레파지토리에 업로드 하세요
 
 
 
